@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus{
+  outline: none;
+}
+
+.img-perfil{
+  width: 95px;
+  height: 95px;
+  overflow: hidden;
+  padding: 0px;
+  margin-top: 10px;
+  
+}
+
+.nombre-usuario1{
+  width: 90px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 22px;
+  margin-top: 0px;
+  color: rgb(0, 0, 0); 
+  
+}
+.nombre-usuario2{
+    width: 100px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 38px;
+    margin-left: -118px;
+    color: rgb(0, 0, 0); 
+    
+  }
+.post{
+  width: 450px;
+  height: 600px;
+  background: #fff;
+  border: 1px solid #dfdfdf;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+
+.info{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.info .nombre-usuario{
+  width: auto;
+  font-weight: bold;
+  color: #000;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.info .opciones{
+  height: 20px;
+  cursor: pointer
+}
+
+.info .usuario{
+  display: flex;
+  align-items: center;
+}
+
+.info .img-perfil{
+  height: 50px;
+  width: 50px;
+}
+
+.info .img-perfil img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #fff;
+
+}
+
+.img-post{
+  width: 100%;
+  object-fit:contain;
+  margin-top: 10px;
+}
+
+.contenido-post{
+  width: 100%;
+  padding: 20px;
+}
+
+.descripcion{
+  margin: 10px 0;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.descripcion span{
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.seccion-comentarios .icono{
+  height: 30px;
+  margin-left: 20px;
+}
+
+.contenido-reaccion{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  margin-top: -20px;
+  align-items: center; 
+}
+
+.contenido-reaccion .icono{
+  height: 25px;
+  margin: 0;
+  margin-right: 20px;
+
+}
+
+.contenido-reaccion .icono.guardar{
+  margin-left: auto;
+  margin-right: -5px;
+}
+
+.icono-arriba{
+    height: 30px;
+    margin-left: 260px;
+}
+
